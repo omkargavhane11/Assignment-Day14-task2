@@ -1,0 +1,40 @@
+*{
+    padding:2px;
+    margin:0px;
+}
+.imp{
+    color:red;
+}
+.main{
+    display:flex;
+    box-shadow: none;
+}
+.email_div div input{
+    width:330px;
+}
+.rating img{
+    color:yellow;
+}
+.satisfied_grid{
+    display:grid;
+    width:600px;
+    place-items:center;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6,1fr);
+}
+  
+}
+.hide{
+    color:white;
+}
+.likely_table tbody tr:nth-child(odd){
+    background-color: rgb(173, 173, 173);
+}
+.likely_table tbody tr td:nth-child(1){
+    width:150px;
+}
+.comments textarea{
+    width:530px;
+    height:110px;
+}
